@@ -7,9 +7,9 @@
     --main-color: #7398BF;
     --sec-color: #507EAF;
     --acc-color: #519CE1;
-    --h1-font: 2rem;
-    --h2-font: 1.5rem;
-    --h3-font: 1.25rem;
+    --h1-font: 2.5rem;
+    --h2-font: 1.75rem;
+    --h3-font: 1.5rem;
     --p-font: 1rem;
     --main-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*--sec-font: kanit - still to load and link;*/
@@ -44,7 +44,7 @@ html {
     border: 3px solid var(--acc-color);
     margin: 3px 0;
     width: 100%;
-    font-size: var(--p-font);
+    font-size: var(--h3-font);
     display: flex;
     justify-content: center;
     background-color: var(--sec-color);
@@ -56,5 +56,14 @@ html {
 .nav li {
     display: inline-block;
     padding: 0 20px;
-    
+    font-size: var(--h3-font);
+}
+
+.nav a {
+    color: var(--h1-font);
+    box-shadow: var(--text-sh);
+}
+
+.nav a:hover {
+    color: white;
 }
