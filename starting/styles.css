@@ -1,0 +1,13 @@
+:root {
+    --main-color: #7398BF;
+    --sec-color: #519CE1;
+    --acc-color: #507EAF;
+    --h1-font: 2rem;
+    --h2-font: 1.5rem;
+    --h3-font: 1rem;
+    --p-font: 0.5rem;
+}
+
+html {
+    background-color: var(--main-color);
+}
