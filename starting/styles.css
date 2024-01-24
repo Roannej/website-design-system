@@ -67,3 +67,50 @@ html {
 .nav a:hover {
     color: white;
 }
+
+#main {
+    margin: 20px auto;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid black;
+    align-items: center;
+    align-content: center;
+}
+
+.main-head {
+    display: flex;
+}
+
+#main h2{
+    text-align: center;
+    margin: 0px auto 20px;
+    color: midnightblue;
+    border: 1px solid black;
+}
+
+#project {
+    width: 40%;
+    justify-content: start;
+    text-align: left;
+    margin: 0 10px 0 20px;
+    line-height: 2;
+    border: 1px solid black;
+}
+
+#project p {
+    font-weight: bold;
+}
+
+#project .list {
+    margin: 0 10px 0 40px;
+}
+
+.nest {
+    margin: 0 10px 0 50px;
+    font-style: italic;
+}
+
+.proj-img {
+    display: inline-block;
+    width: 50%;
+}

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Design System</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header">
@@ -17,15 +23,15 @@
         <li><a href="#">Text Styles</a></li>
     </nav>
 
-    <main>
-        <div>
-            <h2>Challenge Project: Build a Website Design System</h2>
-            <div>
+    <main id="main">
+        <h2>Challenge Project: Build a Website Design System</h2>
+        <div class="main-head">  
+            <div id="project">
                 <p>Build a style guide/design system for your website.</p>
                 <p>This should include sections on &colon;</p>
-                    <ul>
+                    <ul class="list">
                         <li>Colors</li>
-                            <ul>
+                            <ul class="nest">
                                 <li>Each color should have a name, a box 
                                     displaying the color, the CSS value
                                     used to create the color in hex or rgb and
@@ -34,7 +40,7 @@
                                 </li>
                             </ul>
                         <li>Fonts</li>
-                            <ul>
+                            <ul class="nest">
                                 <li>Each font should include, the font 
                                     name, a series of styles you intend to use 
                                     (e.g. bold, italic), and each style should 
@@ -44,19 +50,19 @@
                                 </li>
                             </ul>
                         <li>Specific Text Styles</li>
-                            <ul>
+                            <ul class="nest">
                                 <li>Include at least 3 elements and their style 
                                     rules. (e.g. Subheading/h2: font-weight, size, 
                                     font-family)
                                 </li>
                             </ul>
                     </ul>
-            <div>
-                <img src="/resources/codecademy-colors.png">
-                <img src="/resources/codecademy-fonts.png">
-                <img src="/resources/codecademy-text-styles.png">                
-            </div>                        
-            </div>
+            </div>       
+        <div class="proj-img">
+            <img src="/resources/codecademy-colors.png" width="500px">
+            <img src="/resources/codecademy-fonts.png" width="500px">
+            <img src="/resources/codecademy-text-styles.png" width="500px">                       
+        </div>
         </div>
     </main>
     <footer>
