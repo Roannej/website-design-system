@@ -7,10 +7,10 @@
     --main-color: #7398BF;
     --sec-color: #507EAF;
     --acc-color: #519CE1;
-    --h1-font: 2.5rem;
-    --h2-font: 1.75rem;
-    --h3-font: 1.5rem;
-    --p-font: 1rem;
+    --h1-font: 3rem;
+    --h2-font: 2.75rem;
+    --h3-font: 2rem;
+    --p-font: 1.5rem;
     --main-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*--sec-font: kanit - still to load and link;*/
     --heading-col: #A9A9A9;
@@ -44,6 +44,7 @@ html {
     border: 3px solid var(--acc-color);
     margin: 3px 0;
     width: 100%;
+    height: 40px;
     font-size: var(--h3-font);
     display: flex;
     justify-content: center;
@@ -51,11 +52,13 @@ html {
     color: var(--heading-col);
     text-shadow: 0.25px 0.25px var(--text-sh);
     font-size: var(--h3-font);
+    display: flex;
+    align-items: center;
 }
 
 .nav li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0px 20px;
     font-size: var(--h3-font);
 }
 
@@ -69,48 +72,78 @@ html {
 }
 
 #main {
-    margin: 20px auto;
-    width: 100%;
+    margin: 20px 20px;
+    width: 80%;
     font-family: 'Kanit', sans-serif;
-    border: 1px solid black;
+    border: 3px solid var(--acc-color);
     align-items: center;
     align-content: center;
+    background-color: var(--sec-color);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
 }
 
 .main-head {
-    display: flex;
+    width: 100%;
 }
 
 #main h2{
     text-align: center;
-    margin: 0px auto 20px;
-    color: midnightblue;
-    border: 1px solid black;
+    margin: 10px auto 20px;
+    color: var(--acc-color);
+    text-shadow: 1px 1px rgb(73, 69, 69);
+    font-weight: bold;
+    font-size: var(--h2-font);
 }
 
 #project {
-    width: 40%;
+    width: 100%;
     justify-content: start;
     text-align: left;
-    margin: 0 10px 0 20px;
+    margin: 0 10px 20px 20px;
     line-height: 2;
-    border: 1px solid black;
+    color: rgb(22, 15, 15);
 }
 
 #project p {
     font-weight: bold;
+    color: rgb(61, 54, 80);
+    font-size: 18px;
 }
 
 #project .list {
-    margin: 0 10px 0 40px;
+    margin: 0 40px 0 40px;
+    color: rgb(22, 15, 15);
 }
 
 .nest {
-    margin: 0 10px 0 50px;
+    margin: 0 50px 0 50px;
     font-style: italic;
+    color: rgb(22, 15, 15);
+}
+
+/*.proj-img p {
+    margin: 0 auto 20px;
 }
 
 .proj-img {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     display: inline-block;
-    width: 50%;
+}*/
+
+#footer {
+    width: 100%;
+    border: 3px solid var(--acc-color);
+    background-color: var(--sec-color);
+    height: 20px;
+    color: #202830;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
 }
